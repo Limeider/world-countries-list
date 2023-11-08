@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+
+<head>
+    <title>World Countries List Part: 2</title>
+</head>
+
+<body>
+    <main>
+        <div class="top-container">
+            <div class="headings-group">
+                <h1>WORLD COUNTRIES LIST</h1>
+                <p class="total-countries-number"></p>
+                <p class="letter-countries-number hidden">Countries containing <span class="current-letters"></span> are <span class="current-letters-count"></span>.</p>
+            </div>
+
+            <div class="buttons-group">
+                <button class="btn starting-letter-btn">STARTING LETTER</button>
+                <button class="btn any-letter-btn">SEARCH WITH ANY LETTER</button>
+                <button class="btn order-btn"><img class="a-z-img" src="images/sort-white.png"
+                        alt="sort from a to z icon"></button>
+            </div>
+
+            <div class="input-group">
+                <input class="search-input" type="text" placeholder="Search country...">
+                <img class="search-icon" src="images/search.png" alt="search icon">
+            </div>
+
+        </div>
+        <div class="bottom-container">
+        </div>
+    </main>
+
+
+    <script type="module" src="./countries.js"></script>
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
